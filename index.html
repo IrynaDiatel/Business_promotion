@@ -78,7 +78,7 @@
                   <svg class="watch-btn-icon" width="20" height="18">
                     <use href="./images/icons.svg#icon-Triangle-Copy-6"></use>
                   </svg>
-                  Watch the Video
+                  <a href="#" class="hero-link">Watch the Video</a>
                 </button>
               </li>
             </ul>
@@ -358,68 +358,88 @@
       </section>
 
       <!-- Price Table -->
-      <section>
-        <h2>Price Table</h2>
-        <p>We offer competitive price</p>
-        <ul>
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
-            <p>0</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <p>Only 2 Operators</p>
-              </li>
-              <li>
-                <p>Notifications</p>
-              </li>
-              <li>
-                <p>Landing Pages</p>
-              </li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
-            <p>5</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <p>5+ Operators</p>
-              </li>
-              <li>
-                <p>Notifications</p>
-              </li>
-              <li>
-                <p>Landing Pages</p>
-              </li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
-            <p>10</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <p>10+ Operators</p>
-              </li>
-              <li>
-                <p>Notifications</p>
-              </li>
-              <li>
-                <p>Landing Pages</p>
-              </li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-        </ul>
+      <section class="price">
+        <div class="container">
+          <h2 class="section-title">Price Table</h2>
+          <p class="price-subtitle">We offer competitive price</p>
+          <ul class="price-list">
+            <li class="price-item">
+              <div class="card">
+                <h3 class="card-title">Free</h3>
+                <p class="card-description">Brief price description</p>
+                <div class="card-wrapper">
+                  <p class="card-number">0</p>
+                  <div class="card-price">
+                    <p class="card-valute">$</p>
+                    <p class="card-month">Per / month</p>
+                  </div>
+                </div>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <p class="card-info">Only 2 Operators</p>
+                  </li>
+                  <li class="card-item">
+                    <p class="card-info">Notifications</p>
+                  </li>
+                  <li class="card-item">
+                    <p class="card-info">Landing Pages</p>
+                  </li>
+                </ul>
+                <button type="button" class="price-btn">Order Now</button>
+              </div>
+            </li>
+            <li class="price-item">
+              <div class="card green">
+                <h3 class="card-title color">Standard</h3>
+                <p class="card-description color">Brief price description</p>
+                <div class="card-wrapper">
+                  <p class="card-number color">5</p>
+                  <div class="card-price">
+                    <p class="card-valute color">$</p>
+                    <p class="card-month">Per / month</p>
+                  </div>
+                </div>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <p class="card-info color">5+ Operators</p>
+                  </li>
+                  <li class="card-item">
+                    <p class="card-info color">Notifications</p>
+                  </li>
+                  <li class="card-item">
+                    <p class="card-info color">Landing Pages</p>
+                  </li>
+                </ul>
+                <button type="button" class="price-btn color">Order Now</button>
+              </div>
+            </li>
+            <li class="price-item">
+              <div class="card">
+                <h3 class="card-title">Premium</h3>
+                <p class="card-description">Brief price description</p>
+                <div class="card-wrapper">
+                  <p class="card-number">10</p>
+                  <div class="card-price">
+                    <p class="card-valute">$</p>
+                    <p class="card-month">Per / month</p>
+                  </div>
+                </div>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <p class="card-info">10+ Operators</p>
+                  </li>
+                  <li class="card-item">
+                    <p class="card-info">Notifications</p>
+                  </li>
+                  <li class="card-item">
+                    <p class="card-info">Landing Pages</p>
+                  </li>
+                </ul>
+                <button type="button" class="price-btn">Order Now</button>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -496,8 +516,7 @@
         </p>
       </div>
     </footer>
-  </body>
-</html>
+
     <!--Modal Window-->
     <div class="backdrop" data-modal>
       <div class="modal">
